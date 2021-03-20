@@ -13,11 +13,17 @@ html {
 
 img {
   width: 100%;
+  margin: 0;
+  padding: 0 50px 0 50px;
 }
 
 header {
   color: #8f2440;
   font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+  font-size: 1.5rem;
 }
 
 .navigation ol li {
@@ -72,10 +78,6 @@ h1, h2 {
   line-height: 1.5;
 }
 
-   {
-  list-style-type: lower alpha;
-}
-
 a {
   color: #8f2440;
   text-decoration: none;
@@ -84,6 +86,10 @@ a {
 a:hover {
   color: #3f1622;
   text-decoration: underline;
+}
+
+.ordered {
+  list-style-type: lower-greek;
 }
 
 dl dt {
