@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   font-family: 'PT Serif', serif;
   background-color: #c9b5ab;
+  font-weight: normal;
 }
 
 *, *::before, *::after {
@@ -55,13 +56,17 @@ nav ol li a {
   list-style-type: none;
   text-decoration: none;
 }
+nav ol li a:hover {
+  color: #8f2440;
+  text-decoration: underline;
+}
 
 footer a {
   list-style-type: none;
   text-decoration: none;
   color: #8f2440;
 }
-/*
-font-family: 'PT Sans', sans-serif;
-font-family: 'PT Serif', serif;
-/*
+
+footer a:hover {
+  text-decoration: underline;
+}
