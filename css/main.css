@@ -9,12 +9,14 @@ html {
 }
 
 header {
-  background-color: #464646;
   color: #8f2440;
+  font-family: 'PT Sans', sans-serif;
 }
 
 blockquote {
 font-style: italic;
+text-align: center;
+font-size: 1.5rem;
 }
 
 figure {
@@ -36,8 +38,15 @@ h1, h2 {
   line-height: 1.5;
 }
 
-nav ol li {
-  font-family: 'PT Sans', sans-serif;
+nav ol li a {
+  color: #8f2440;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+footer a {
+  list-style-type: none;
+  text-decoration: none;
   color: #8f2440;
 }
 /*
