@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   background-color: #c9b5ab;
   font-weight: normal;
   line-height: 1.5;
@@ -19,7 +19,7 @@ img {
 
 header {
   color: #8f2440;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 h1 {
@@ -50,7 +50,7 @@ figure {
 }
 
 figcaption {
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-size: .8rem;
   font-style: italic;
   text-align: center;
@@ -71,7 +71,7 @@ h2 + p {
 }
 
 h1, h2 {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   color: #3f1622;
   font-size: 1.5rem;
   line-height: 1.5;
