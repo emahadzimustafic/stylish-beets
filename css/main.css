@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'PT Serif', serif;
+  font-family: "'PT Serif'", serif;
   background-color: #c9b5ab;
   font-weight: normal;
 }
@@ -49,6 +49,10 @@ h1, h2 {
   color: #3f1622;
   font-size: 1.5rem;
   line-height: 1.5;
+}
+
+.navigation a {
+  list-style-type: none;
 }
 
 a {
