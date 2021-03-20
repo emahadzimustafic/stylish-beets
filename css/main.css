@@ -8,6 +8,10 @@ html {
   box-sizing: inherit;
 }
 
+img {
+  width: 100%;
+}
+
 header {
   color: #8f2440;
   font-family: 'PT Sans', sans-serif;
