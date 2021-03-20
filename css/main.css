@@ -26,9 +26,17 @@ figure {
 
 figcaption {
   font-family: 'PT Serif', serif;
-  font-size: .8em;
+  font-size: 1.125rem;
   font-style: italic;
   text-align: center;
+}
+
+figure + p {
+  font-weight: bold;
+}
+
+h2 + p {
+  font-weight: bold;
 }
 
 h1, h2 {
