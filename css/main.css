@@ -1,7 +1,31 @@
 html {
   box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
+  background-color: #c9b5ab;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  font-family: 'PT Serif', serif;
+  font-size: .8em;
+  font-style: italic;
+}
+
+h2 {
+  font-family: 'PT Sans', sans-serif;
+  color:#8f2440;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+/*
+font-family: 'PT Sans', sans-serif;
+font-family: 'PT Serif', serif;
+/*
