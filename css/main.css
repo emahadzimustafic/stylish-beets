@@ -44,11 +44,12 @@ figcaption {
 
 footer > cite {
   text-align: left;
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 figure + p {
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 h2 + p {
@@ -62,6 +63,10 @@ h1, h2 {
   line-height: 1.5;
 }
 
+ol li {
+  list-style-type: lower alpha;
+}
+
 a {
   color: #8f2440;
   text-decoration: none;
@@ -72,8 +77,13 @@ a:hover {
   text-decoration: underline;
 }
 
-aside ul {
-  list-style-type: disc;
+dl dt {
+  font-weight: bold;
+}
+
+aside > h2 + ul li {
+  font-size: .8rem;
+  list-style-type: circle;
 }
 
 footer a {
