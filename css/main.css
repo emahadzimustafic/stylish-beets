@@ -4,6 +4,7 @@ html {
   background-color: #c9b5ab;
   font-weight: normal;
   line-height: 1.5;
+  font-size: 1.125rem;
 }
 
 *, *::before, *::after {
@@ -18,6 +19,10 @@ header {
   color: #8f2440;
   font-family: 'PT Sans', sans-serif;
 }
+
+.navigation ol li {
+ list-style:none;
+ }
 
 blockquote {
   font-style: italic;
