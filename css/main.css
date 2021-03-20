@@ -51,13 +51,12 @@ h1, h2 {
   line-height: 1.5;
 }
 
-nav ol li a {
+a {
   color: #8f2440;
-  list-style-type: none;
   text-decoration: none;
 }
 
-nav ol li a:hover {
+a:hover {
   color: #3f1622;
   text-decoration: underline;
 }
