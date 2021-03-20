@@ -19,9 +19,9 @@ header {
 }
 
 blockquote {
-font-style: italic;
-text-align: center;
-font-size: 1.5rem;
+  font-style: italic;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 figure {
@@ -46,7 +46,7 @@ h2 + p {
 
 h1, h2 {
   font-family: 'PT Sans', sans-serif;
-  color:#3f1622;
+  color: #3f1622;
   font-size: 1.5rem;
   line-height: 1.5;
 }
@@ -56,8 +56,9 @@ nav ol li a {
   list-style-type: none;
   text-decoration: none;
 }
+
 nav ol li a:hover {
-  color: #8f2440;
+  color: #3f1622;
   text-decoration: underline;
 }
 
@@ -69,4 +70,5 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+  color: #3f1622;
 }
