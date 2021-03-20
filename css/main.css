@@ -72,6 +72,10 @@ a:hover {
   text-decoration: underline;
 }
 
+aside ul {
+  list-style-type: disc;
+}
+
 footer a {
   list-style-type: none;
   text-decoration: none;
