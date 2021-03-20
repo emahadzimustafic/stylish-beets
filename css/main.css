@@ -21,8 +21,8 @@ header {
 }
 
 .navigation ol li {
- list-style:none;
- }
+  list-style: none;
+}
 
 blockquote {
   font-style: italic;
@@ -39,7 +39,12 @@ figcaption {
   font-family: 'PT Serif', serif;
   font-size: 1.125rem;
   font-style: italic;
-  text-align: center;
+  text-align: left;
+}
+
+footer > cite {
+  text-align: left;
+  font-size: 0.8rem;
 }
 
 figure + p {
@@ -47,7 +52,7 @@ figure + p {
 }
 
 h2 + p {
-  font-weight: bold;
+  font-style: italic;
 }
 
 h1, h2 {
